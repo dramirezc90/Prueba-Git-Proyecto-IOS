@@ -21,6 +21,7 @@
 		4DE73086192265BC0082F13C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE73068192265BC0082F13C /* UIKit.framework */; };
 		4DE7308E192265BC0082F13C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DE7308C192265BC0082F13C /* InfoPlist.strings */; };
 		4DE73090192265BC0082F13C /* Prueba_GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7308F192265BC0082F13C /* Prueba_GitTests.m */; };
+		4DE7309B192268890082F13C /* DRprueba.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7309A192268890082F13C /* DRprueba.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4DE7308B192265BC0082F13C /* Prueba GitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prueba GitTests-Info.plist"; sourceTree = "<group>"; };
 		4DE7308D192265BC0082F13C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DE7308F192265BC0082F13C /* Prueba_GitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prueba_GitTests.m; sourceTree = "<group>"; };
+		4DE73099192268890082F13C /* DRprueba.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRprueba.h; sourceTree = "<group>"; };
+		4DE7309A192268890082F13C /* DRprueba.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRprueba.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		4DE73058192265BC0082F13C = {
 			isa = PBXGroup;
 			children = (
+				4DE73099192268890082F13C /* DRprueba.h */,
+				4DE7309A192268890082F13C /* DRprueba.m */,
 				4DE7306A192265BC0082F13C /* Prueba Git */,
 				4DE73089192265BC0082F13C /* Prueba GitTests */,
 				4DE73063192265BC0082F13C /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				4DE73075192265BC0082F13C /* DRAppDelegate.m in Sources */,
 				4DE7307B192265BC0082F13C /* DRViewController.m in Sources */,
+				4DE7309B192268890082F13C /* DRprueba.m in Sources */,
 				4DE73071192265BC0082F13C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
